@@ -1,4 +1,5 @@
 // External Dependencies
+import { Typography } from '@material-ui/core';
 import { lighten, makeStyles } from '@material-ui/core/styles';
 
 // Local Variables
@@ -19,7 +20,12 @@ const Header = () => {
 
   return (
     <header className={classes.root}>
-      <h1>MUI Pupppers</h1>
+      <Typography
+        component="h1"
+        variant="h2"
+      >
+        MUI Pupppers
+      </Typography>
     </header>
   );
 };

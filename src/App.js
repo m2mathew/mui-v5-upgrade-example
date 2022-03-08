@@ -2,7 +2,8 @@
 import { CssBaseline } from '@material-ui/core';
 
 // Internal Dependencies
-import Header from './pages/Header';
+import Header from './Header';
+import PupperContent from './PupperContent';
 import './App.css';
 
 // Component Definition
@@ -13,6 +14,8 @@ function App() {
 
       <div className="App">
         <Header />
+
+        <PupperContent />
       </div>
     </>
   );
