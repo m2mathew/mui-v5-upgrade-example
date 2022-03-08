@@ -14,8 +14,8 @@ const useStyles = makeStyles((theme) => ({
       paddingBottom: 0,
     },
     backgroundColor: lighten(theme.palette.action.disabled, 0.8),
-    height: 400,
-    width: 400,
+    height: '100%',
+    width: '100%',
   },
   image: {
     height: 360,

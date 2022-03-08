@@ -46,10 +46,12 @@ const PupperContent = () => {
       try {
         const response = await axios.get(apiUrl);
         console.log('axios response', response);
+
         setPupperList(response.data.message);
         setLoading(false);
       } catch (error) {
         console.error('axios error', error);
+
         setFetchError(error);
         setLoading(false);
       }
